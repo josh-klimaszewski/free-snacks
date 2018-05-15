@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import IndexPage from './pages/IndexPage';
 import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
-import UpdatesPage from './pages/UpdatesPage';
+import NarratorsPage from './pages/NarratorsPage';
+import ExhibitPage from './pages/ExhibitPage';
+import ConversationsPage from './pages/ConversationsPage';
+import PrintsPage from './pages/PrintsPage';
+import ArchivePage from './pages/ArchivePage';
 import './App.css';
 
 class App extends Component {
@@ -11,8 +14,11 @@ class App extends Component {
       <div>
       <IndexPage />
       <AboutPage />
-      <ContactPage />
-      <UpdatesPage />
+      <NarratorsPage />
+      <ExhibitPage />
+      <ConversationsPage />
+      <PrintsPage />
+      <ArchivePage />
       </div>
     );
   }

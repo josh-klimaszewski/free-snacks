@@ -50,30 +50,48 @@ class Nav extends Component {
             >
                
                 <div className="menu">
-                <p
+                <div
                     className="menu__item active"
                     onClick={(e) => this.scrollToPage('.index-page')}
                     >
                     Home
-                    </p>
-                    <p
+                    </div>
+                    <div
                     className="menu__item active"
                     onClick={(e) => this.scrollToPage('.about-page')}
                     >
                     About
-                    </p>
-                    <p
+                    </div>
+                    <div
                     className="menu__item"
-                    onClick={(e) => this.scrollToPage('.contact-page')}
+                    onClick={(e) => this.scrollToPage('.narrators-page')}
                     >
-                    Contact
-                    </p>
-                    <p
+                    Narrators
+                    </div>
+                    <div
                     className="menu__item"
-                    onClick={(e) => this.scrollToPage('.updates-page')}
+                    onClick={(e) => this.scrollToPage('.exhibit-page')}
                     >
-                    Updates
-                    </p>
+                    Exhibit
+                    </div>
+                    <div
+                    className="menu__item"
+                    onClick={(e) => this.scrollToPage('.conversations-page')}
+                    >
+                    Conversations
+                    </div>
+                    <div
+                    className="menu__item"
+                    onClick={(e) => this.scrollToPage('.prints-page')}
+                    >
+                    Prints
+                    </div>
+                    <div
+                    className="menu__item"
+                    onClick={(e) => this.scrollToPage('.archive-page')}
+                    >
+                    Archive
+                    </div>
                     
                     
                 </div>
