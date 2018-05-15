@@ -1,0 +1,9 @@
+nav {
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  nav .menu {
+    display: flex; }
