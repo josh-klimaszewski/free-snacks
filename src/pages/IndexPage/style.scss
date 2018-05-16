@@ -4,20 +4,25 @@
     main {
         height: inherit;
         display: grid;
-        grid-template-rows: 1fr 9fr 1fr;
-        
-
+        grid-template-rows: 1fr 8fr 1fr;
         .content {
-            
-            background: url("https://image.ibb.co/jmxfmJ/free_snacks_flat5.jpg") no-repeat;
-            background-size: contain;
+            background: url("https://image.ibb.co/jmxfmJ/free_snacks_flat5.jpg") center bottom;
+            background-size: cover;
+            height: 100%;
             grid-row: 2;
-            // display: flex;
-            // flex-direction: column;
-            // justify-content: center;
-            // align-items: center;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-rows: repeat(4, 1fr);
             h1, p {
                 color: white;
+                margin: 0 auto;
+            }
+            h1 {
+                grid-row: 2;
+            }
+            p {
+                grid-row: 3;
             }
         }
     }

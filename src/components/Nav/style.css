@@ -4,7 +4,8 @@ nav {
   top: 0;
   width: 100vw;
   height: 30px;
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+  background-color: white; }
   nav .menu {
     margin: 0 2%;
     height: inherit;

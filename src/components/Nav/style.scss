@@ -5,6 +5,7 @@ nav {
     width: 100vw;
     height: 30px;
     margin-bottom: 5%;
+    background-color: white;
     
     .menu {
         margin: 0 2%;
@@ -15,7 +16,6 @@ nav {
         grid-template-columns: repeat(8, 1fr);
         grid-template-areas:
         "home space space about conversations narrators exhibits archive";
-        // align-content: center;
         div {
             display: grid;
             justify-content: center;
