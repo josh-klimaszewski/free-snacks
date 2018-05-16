@@ -9,7 +9,7 @@ const AboutPage = () => {
                 memory and identity conducted in public spaces around Pittsburgh.
             </div>
             <div className="item2">
-                <div>
+                <div className="quote">
                 Everybody seems so young. And everybody’s talking 
                 about restaurants. If there are scholars who hope 
                 to study how a vibrant food culture can help radically 
@@ -18,7 +18,7 @@ const AboutPage = () => {
                 No one can pinpoint whether it was the artists or techies 
                 or chefs who got the revitalization rolling.
                 </div>
-                <div>
+                <div className="author">
                 -Jeff Gordinier, March 15, 2016, The New York Times
                 </div>
             </div>
@@ -63,8 +63,9 @@ const AboutPage = () => {
                 </div>
             </div>
             <div className="item5">
-                <div>
-                Collaborators</div>
+                <div className="title">
+                Collaborators
+                </div>
                 <div>
                 <span>Madalyn Hochendoner</span> is an interdisciplinary artist, poet & cook living in Pittsburgh.  Her work seeks 
                 to express an altered landscape of memory & emotion through the physical parallels of landscape & food.  Her recent 
