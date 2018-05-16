@@ -4,7 +4,6 @@ import AboutPage from './pages/AboutPage';
 import NarratorsPage from './pages/NarratorsPage';
 import ExhibitPage from './pages/ExhibitPage';
 import ConversationsPage from './pages/ConversationsPage';
-import PrintsPage from './pages/PrintsPage';
 import ArchivePage from './pages/ArchivePage';
 import './App.css';
 
@@ -14,10 +13,9 @@ class App extends Component {
       <div>
       <IndexPage />
       <AboutPage />
+      <ConversationsPage />
       <NarratorsPage />
       <ExhibitPage />
-      <ConversationsPage />
-      <PrintsPage />
       <ArchivePage />
       </div>
     );

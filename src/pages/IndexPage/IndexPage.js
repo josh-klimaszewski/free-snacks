@@ -7,7 +7,10 @@ const IndexPage = () => {
         <div className="index-page">
             <Nav />
             <main>
-                Index
+                <div class="content">
+                    <h1>(free snacks)</h1>
+                    <p>Conversations about food, identity and memory in Pittsburgh</p>
+                </div>
             </main>
         </div> 
        );

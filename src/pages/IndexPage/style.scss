@@ -1,3 +1,24 @@
 .index-page {
-    min-height: 100vh;
+    padding-top: 30px;
+    height: 100vh;
+    main {
+        height: inherit;
+        display: grid;
+        grid-template-rows: 1fr 9fr 1fr;
+        
+
+        .content {
+            
+            background: url("https://image.ibb.co/jmxfmJ/free_snacks_flat5.jpg") no-repeat;
+            background-size: contain;
+            grid-row: 2;
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
+            h1, p {
+                color: white;
+            }
+        }
+    }
 }

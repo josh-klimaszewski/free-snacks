@@ -1,9 +1,31 @@
 nav {
   position: fixed;
   z-index: 2;
+  top: 0;
   width: 100vw;
-  display: flex;
-  align-items: center;
-  flex-direction: column; }
+  height: 30px;
+  margin-bottom: 5%; }
   nav .menu {
-    display: flex; }
+    margin: 0 2%;
+    height: inherit;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: "home space space about conversations narrators exhibits archive"; }
+    nav .menu div {
+      display: grid;
+      justify-content: center;
+      align-items: center; }
+    nav .menu .item1 {
+      grid-area: home; }
+    nav .menu .item2 {
+      grid-area: about; }
+    nav .menu .item3 {
+      grid-area: conversations; }
+    nav .menu .item4 {
+      grid-area: narrators; }
+    nav .menu .item5 {
+      grid-area: exhibits; }
+    nav .menu .item6 {
+      grid-area: archive; }

@@ -51,43 +51,37 @@ class Nav extends Component {
                
                 <div className="menu">
                 <div
-                    className="menu__item active"
+                    className="item1 active"
                     onClick={(e) => this.scrollToPage('.index-page')}
                     >
                     Home
                     </div>
                     <div
-                    className="menu__item active"
+                    className="item2 active"
                     onClick={(e) => this.scrollToPage('.about-page')}
                     >
                     About
                     </div>
                     <div
-                    className="menu__item"
-                    onClick={(e) => this.scrollToPage('.narrators-page')}
-                    >
-                    Narrators
-                    </div>
-                    <div
-                    className="menu__item"
-                    onClick={(e) => this.scrollToPage('.exhibit-page')}
-                    >
-                    Exhibit
-                    </div>
-                    <div
-                    className="menu__item"
+                    className="item3"
                     onClick={(e) => this.scrollToPage('.conversations-page')}
                     >
                     Conversations
                     </div>
                     <div
-                    className="menu__item"
-                    onClick={(e) => this.scrollToPage('.prints-page')}
+                    className="item4"
+                    onClick={(e) => this.scrollToPage('.narrators-page')}
                     >
-                    Prints
+                    Narrators
                     </div>
                     <div
-                    className="menu__item"
+                    className="item5"
+                    onClick={(e) => this.scrollToPage('.exhibit-page')}
+                    >
+                    Exhibit
+                    </div>
+                    <div
+                    className="item6"
                     onClick={(e) => this.scrollToPage('.archive-page')}
                     >
                     Archive
