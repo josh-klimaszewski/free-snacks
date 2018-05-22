@@ -66,31 +66,31 @@ const AboutPage = () => {
                 <div className="title">
                 Collaborators
                 </div>
-                <div>
+                <div className="madalyn">
                 <span>Madalyn Hochendoner</span> is an interdisciplinary artist, poet & cook living in Pittsburgh.  Her work seeks 
                 to express an altered landscape of memory & emotion through the physical parallels of landscape & food.  Her recent 
                 work includes a series of lithographs & poems that reclaim landscape through a feminist lens redefining & reclaiming 
                 ideas of “ownership,” “sexy,” & “luxury.”  She considers all her work to be a part of an ongoing investigation 
                 into/expansion of the art of still lifes. Digital archives of her prints for this show are available in the exhibit section.
                 </div>
-                <div>
+                <div className="emeran">
                 <span>Emeran Irby</span> is a master’s candidate in Food Studies at Chatham University. 
                 Her areas of interests include: lady brewers, Appalachian foodways, and donuts. 
                 She currently lives in Pittsburgh where she scoops ice cream at Millie’s and lives happily with her cat Nelson Mandela.
                 </div>
-                <div>
+                <div className="stephanie">
                 <span>Stephanie Hall</span> is a recent Pittsburgh transplant and aspiring artist whose lifetime food service 
                 experience spans from organic farming to cocktail mixing. She’s also lived in a few food deserts. 
                 Her interests include bookmaking, fruit and snail mail.
                 </div>
-                <div>
+                <div className="josh">
                 <span>Josh Klimaszewski</span> is a Michigan-born artist, musician and chef. His interests include making pasta, 
                 playing tricks on his dog and taking apart cassette tapes. He currently works at Conflict Kitchen in Oakland and 
                 lives in Lawrenceville. He’s deep-fried his glasses twice, but he still wears them.
                 </div>
             </div>
             <div className="item6">
-                <div>Advisors</div>
+                <div className="title">Advisors</div>
                 <div><span>Alice Julier</span> is the Program Director of and Associate Professor in the Food Studies Program at the 
                 Falk School of Sustainability at Chatham University. Alice Julier is a sociologist who has been teaching and writing 
                 about inequality, food, and everyday life for two decades. Prior research include the feminist women’s health 
@@ -111,7 +111,7 @@ const AboutPage = () => {
                 Theater for seven movers and one musician called The Reduction. www.davidbernabo.com</div>
             </div>
             <div className="item7">
-                <div>Interviewers</div>
+                <div className="title">Interviewers</div>
                 <div><span>Hillary Bedeian</span>, former Pittsburgher, is an educator living in New Orleans, Louisiana. She enjoys eating Oscar Mayer 
                 baloney and has a soft spot for hard cheeses.</div>
                 <div><span>Eleanor Gamalski</span> is the Community Organizer for <a href="https://www.detroitjewsforjustice.org/">Detroit Jews for 
