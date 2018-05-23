@@ -48,7 +48,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: repeat(5, 1fr);
-    grid-gap: 10px; }
+    grid-gap: 20px; }
     .about-page .item5 div {
       font-family: "Montserrat", sans-serif; }
     .about-page .item5 .title {
@@ -75,15 +75,15 @@ a {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-gap: 20px; }
-    .about-page .item6 div {
-      font-family: "Montserrat", sans-serif;
-      grid-column: 1 / -1; }
     .about-page .item6 .title {
       font-family: "Roboto Slab", serif;
       font-weight: bold;
       font-size: 30px;
       grid-column: 2;
       text-align: center; }
+    .about-page .item6 div {
+      font-family: "Montserrat", sans-serif;
+      grid-column: 1 / -1; }
   .about-page .item7 {
     grid-row: 7;
     grid-column: 1 / -1;

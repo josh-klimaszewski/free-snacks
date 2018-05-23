@@ -1,3 +1,35 @@
 .conversations-page {
+  margin: 0 10%;
   padding-top: 30px;
   min-height: 100vh; }
+  .conversations-page .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Roboto Slab", serif; }
+  .conversations-page .videos-container {
+    margin-bottom: 50px;
+    border-bottom: 1px solid black; }
+    .conversations-page .videos-container .video-1 iframe, .conversations-page .videos-container .video-2 iframe {
+      width: 100%;
+      height: 600px; }
+    .conversations-page .videos-container .video-1 .desc, .conversations-page .videos-container .video-2 .desc {
+      text-align: center;
+      margin: 50px 0;
+      font-family: "Montserrat", sans-serif; }
+  .conversations-page .booths-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; }
+    .conversations-page .booths-container .booths-text {
+      grid-column: 1 / -1;
+      font-family: "Montserrat", sans-serif; }
+    .conversations-page .booths-container .booth-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .conversations-page .booths-container .booth-item img {
+        width: 100%; }
+      .conversations-page .booths-container .booth-item .description {
+        font-family: "Montserrat", sans-serif; }

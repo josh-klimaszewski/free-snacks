@@ -1,15 +1,44 @@
 import React from 'react';
 import Booth from '../../components/Booth';
+import './style.css';
 
 const Booths = () => {
     const boothData = [
         {
-            img: 'https://image.ibb.co/hFwHKH/Screen_Shot_2018_04_29_at_7_01_02_PM.png',
-            description: 'hi mom'
+            img: 'https://image.ibb.co/kcDkWT/randyland.jpg',
+            description: 'Randyland. May 8, 2016.'
         },
         {
-            img: 'https://image.ibb.co/hFwHKH/Screen_Shot_2018_04_29_at_7_01_02_PM.png',
-            description: 'hi mom'
+            img: 'https://image.ibb.co/cZNOJ8/randyland2.jpg',
+            description: 'Randyland. May 8, 2016.'
+        },
+        {
+            img: 'https://image.ibb.co/cmmiJ8/millvale.jpg',
+            description: 'Millvale Library. May 7, 2016.'
+        },
+        {
+            img: 'https://image.ibb.co/kVbprT/market_square.jpg',
+            description: 'Market Sauqre. May 5, 2016.'
+        },
+        {
+            img: 'https://image.ibb.co/n63r5o/mara_interview.jpg',
+            description: 'Zekes Coffee. May 20, 2016.'
+        },
+        {
+            img: 'https://image.ibb.co/irend8/lili.jpg',
+            description: 'Lili Cafe. May , 2016.'
+        },
+        {
+            img: 'https://image.ibb.co/keXerT/wigle.jpg',
+            description: 'Wigle Whiskey. June 4, 2016.'
+        },
+        {
+            img: 'https://image.ibb.co/hYpLy8/icp.jpg',
+            description: 'Islamic Community Center. June 3, 2016.'
+        },
+        {
+            img: 'https://image.ibb.co/mbTr5o/jcc.jpg',
+            description: 'Jewish Community Center. June 3, 2016.'
         }
     ];
     const booths = boothData.map((booth) => {
